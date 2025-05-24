@@ -3,10 +3,11 @@
         <h1 class="text-xl font-bold">RedConnect</h1>
 
         <!-- Navigasi Desktop -->
-        <nav class="space-x-6 hidden md:flex items-center">
+        <nav class="space-x-6 hidden md:flex item w-full justify-center">
             <a href="{{ route('beranda') }}" class="hover:underline">Beranda</a>
             <a href="/Tentang Kami" class="hover:underline">Tentang Kami</a>
             <a href="/Kebijakan" class="hover:underline">Kebijakan</a>
+        </nav>    
 
             <!-- Ikon Profil -->
             <a href="/profil" class="ml-2 hover:text-gray-200" aria-label="Profil">
@@ -14,7 +15,6 @@
                     <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8V22h19.2v-2.8c0-3.2-6.4-4.8-9.6-4.8z"/>
                 </svg>
             </a>
-        </nav>
 
         <!-- Tombol Mobile Menu -->
         <button class="md:hidden focus:outline-none" id="menuBtn">
@@ -31,7 +31,7 @@
         <a href="{{ route('beranda') }}" class="block py-2">Beranda</a>
         <a href="/tentang kami" class="block py-2">Tentang Kami</a>
         <a href="/kebijakan" class="block py-2">Kebijakan</a>
-        <a href="/profil" class="block py-2">Profil</a>
+        <a href="/profil" class="block py-2 ">Profil</a>
     </div>
 </header>
 
